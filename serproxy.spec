@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://www.lspace.nildram.co.uk/files/%{name}-%{version}.tar.gz
+# Source0-md5:	3cdac9c05fb3a272e4cc4d7ae433fb17
 URL:		http://www.lspace.nildram.co.uk/freeware.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
