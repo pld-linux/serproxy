@@ -2,7 +2,7 @@ Summary:	Proxy for redirecting TCP connections to/from serial links
 Summary(pl):	Proxy przekierowuj±ce po³±czenia TCP do/z po³±czeñ szeregowych
 Name:		serproxy
 Version:	0.1.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://www.lspace.nildram.co.uk/files/%{name}-%{version}.tar.gz
