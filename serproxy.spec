@@ -4,32 +4,31 @@ Name:		serproxy
 Version:	0.1.2
 Release:	1
 License:	GPL
-Group:		Daemons
-Group(de):	Server
-Group(pl):	Serwery
+Group:		Networking/Daemons
+Group(de):	Netzwerkwesen/Server
+Group(pl):	Sieciowe/Serwery
 Source0:	http://www.lspace.nildram.co.uk/files/%{name}-%{version}.tar.gz
 URL:		http://www.lspace.nildram.co.uk/freeware.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Serproxy is a GPL multi-threaded proxy program for redirecting                  
-network socket connections to/from serial links, in cases where                 
-the remote end of the serial link doesn't have a TCP/IP                         
-stack (eg an embedded or microcontroller system).                               
-The proxy allows other hosts on the network to communicate                      
-with the system on the remote end of the serial link.                           
-When run, it listens for incoming connections on a number of tcp                
-ports. Whenever a connection is made data is proxied to and from                
-that connection to a serial port.                                               
+Serproxy is a GPL multi-threaded proxy program for redirecting network
+socket connections to/from serial links, in cases where the remote end
+of the serial link doesn't have a TCP/IP stack (eg an embedded or
+microcontroller system). The proxy allows other hosts on the network
+to communicate with the system on the remote end of the serial link.
+When run, it listens for incoming connections on a number of tcp
+ports. Whenever a connection is made data is proxied to and from that
+connection to a serial port.
 
 %description -l pl
 Serproxy jest wielow±tkowym proxy do przekierowywania po³±czeñ
-sieciowych na/z ³±czy szeregowych w przypadkach kiedy koñcówka
-nie ma stosu TCP/IP (np. w systemach wbudowanych lub
-mikrokontrolerach). Ten proxy pozwala innym komputerom w sieci na
-komunikacjê z koñcówk± na po³±czeniu szeregowym. Po uruchomieniu
-s³ucha na portach TCP. Po po³±czeniu dane s± przekierowywane do
-i z tego po³±czenia na port szeregowy.
+sieciowych na/z ³±czy szeregowych w przypadkach kiedy koñcówka nie ma
+stosu TCP/IP (np. w systemach wbudowanych lub mikrokontrolerach). Ten
+proxy pozwala innym komputerom w sieci na komunikacjê z koñcówk± na
+po³±czeniu szeregowym. Po uruchomieniu s³ucha na portach TCP. Po
+po³±czeniu dane s± przekierowywane do i z tego po³±czenia na port
+szeregowy.
 
 %prep
 %setup -q
