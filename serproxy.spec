@@ -5,8 +5,6 @@ Version:	0.1.2
 Release:	1
 License:	GPL
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 Source0:	http://www.lspace.nildram.co.uk/files/%{name}-%{version}.tar.gz
 URL:		http://www.lspace.nildram.co.uk/freeware.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
