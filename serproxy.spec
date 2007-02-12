@@ -1,5 +1,5 @@
 Summary:	Proxy for redirecting TCP connections to/from serial links
-Summary(pl):	Proxy przekierowuj±ce po³±czenia TCP do/z po³±czeñ szeregowych
+Summary(pl.UTF-8):   Proxy przekierowujÄ…ce poÅ‚Ä…czenia TCP do/z poÅ‚Ä…czeÅ„ szeregowych
 Name:		serproxy
 Version:	0.1.2
 Release:	2
@@ -20,13 +20,13 @@ When run, it listens for incoming connections on a number of tcp
 ports. Whenever a connection is made data is proxied to and from that
 connection to a serial port.
 
-%description -l pl
-Serproxy jest wielow±tkowym proxy do przekierowywania po³±czeñ
-sieciowych na/z ³±czy szeregowych w przypadkach kiedy koñcówka nie ma
+%description -l pl.UTF-8
+Serproxy jest wielowÄ…tkowym proxy do przekierowywania poÅ‚Ä…czeÅ„
+sieciowych na/z Å‚Ä…czy szeregowych w przypadkach kiedy koÅ„cÃ³wka nie ma
 stosu TCP/IP (np. w systemach wbudowanych lub mikrokontrolerach). Ten
-proxy pozwala innym komputerom w sieci na komunikacjê z koñcówk± na
-po³±czeniu szeregowym. Po uruchomieniu s³ucha na portach TCP. Po
-po³±czeniu dane s± przekierowywane do i z tego po³±czenia na port
+proxy pozwala innym komputerom w sieci na komunikacjÄ™ z koÅ„cÃ³wkÄ… na
+poÅ‚Ä…czeniu szeregowym. Po uruchomieniu sÅ‚ucha na portach TCP. Po
+poÅ‚Ä…czeniu dane sÄ… przekierowywane do i z tego poÅ‚Ä…czenia na port
 szeregowy.
 
 %prep
