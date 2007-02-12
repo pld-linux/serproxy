@@ -1,5 +1,5 @@
 Summary:	Proxy for redirecting TCP connections to/from serial links
-Summary(pl.UTF-8):   Proxy przekierowujące połączenia TCP do/z połączeń szeregowych
+Summary(pl.UTF-8):	Proxy przekierowujące połączenia TCP do/z połączeń szeregowych
 Name:		serproxy
 Version:	0.1.2
 Release:	2
